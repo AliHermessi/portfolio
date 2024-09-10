@@ -1,0 +1,41 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navbar-element-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-element {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000000;
+  font-weight:500;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+.lets-talk-link {
+  border-radius: 24px;
+  background-color: #ffdc0c;
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 6px 42px;
+  text-decoration: none;
+
+}
+
+.navbar-icon {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 40px;
+}
