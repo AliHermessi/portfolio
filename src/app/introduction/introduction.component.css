@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.left-side {
+  flex: 1.8;
+}
+
+.right-side {
+  display: flex;
+  flex: 1.2;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-text-container {
+  margin: 20px 0;
+}
+
+.description-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 1.2;
+}
+
+.underline {
+  position: relative;
+  display: inline-block; /* Ensures the underline is centered correctly */
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 8px; /* Adjusted space between text and underline */
+  transform: translateX(-50%); /* Center the underline */
+  width: 120%; /* Make the underline slightly wider */
+  height: 12px; /* Increased underline thickness */
+  background-color: #ffdc0c; /* Yellow color */
+  z-index: -1; /* Ensure it does not interfere with the text */
+}
+
+.description-tags {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.tag {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.description-buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.lets-talk {
+  border-radius: 24px;
+  background-color: #ffdc0c;
+  color: #000000;
+  font-weight: normal;
+  font-size: 25px;
+  padding: 8px 42px;
+  text-decoration: none;
+}
+
+.want-disscuss {
+  border-radius: 24px;
+  color: #000000;
+  font-weight: bold;
+  border: 5px solid #000000;
+  font-size: 25px;
+  padding: 8px 42px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.right-side .img {
+  max-width: 90%;
+  max-height: 95%; /* Increased height for more tallness */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid gray;
+}
