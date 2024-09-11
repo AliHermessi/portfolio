@@ -4,6 +4,8 @@
   width: 80%;
   margin: 0 auto;
   margin-bottom: 100px;
+  flex-direction: row; /* default for larger screens */
+  flex-wrap: wrap; 
 }
 
 .left-side {
@@ -30,7 +32,7 @@
 
 .underline {
   position: relative;
-  display: inline-block; /* Ensures the underline is centered correctly */
+  display: inline-block;
 }
 
 .highlight {
@@ -42,12 +44,12 @@
   content: '';
   position: absolute;
   left: 50%;
-  bottom: 8px; /* Adjusted space between text and underline */
-  transform: translateX(-50%); /* Center the underline */
-  width: 120%; /* Make the underline slightly wider */
-  height: 12px; /* Increased underline thickness */
-  background-color: #ffdc0c; /* Yellow color */
-  z-index: -1; /* Ensure it does not interfere with the text */
+  bottom: 8px;
+  transform: translateX(-50%);
+  width: 120%;
+  height: 12px;
+  background-color: #ffdc0c;
+  z-index: -1;
 }
 
 .description-tags {
@@ -88,8 +90,47 @@
 
 .right-side .img {
   max-width: 90%;
-  max-height: 95%; /* Increased height for more tallness */
+  max-height: 95%;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid gray;
 }
+
+/* Media query for smaller screens */
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack left and right side vertically */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-side, .right-side {
+    width: 100%; /* Make both sides take full width */
+    text-align: center; /* Center-align the content in both sides */
+  }
+
+  .left-side {
+    margin-bottom: 20px; /* Add space between the left and right side */
+  }
+
+  .description-text {
+    font-size: 36px; /* Reduce font size */
+  }
+
+  .tag {
+    font-size: 24px; /* Adjust tag size */
+  }
+
+  .lets-talk,
+  .want-disscuss {
+    font-size: 20px; /* Smaller button text */
+    padding: 6px 30px;
+  }
+
+  .right-side .img {
+    max-width: 80%; /* Adjust image size */
+    max-height: 80%;
+  }
+}
+
