@@ -8,6 +8,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { BlackLineComponent } from './black-line/black-line.component';
 import { ServicesCardsComponent } from './services-cards/services-cards.component';
 import { PortfoliosCardsComponent } from './portfolios-cards/portfolios-cards.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PortfoliosCardsComponent } from './portfolios-cards/portfolios-cards.co
     IntroductionComponent,
     BlackLineComponent,
     ServicesCardsComponent,
-    PortfoliosCardsComponent
+    PortfoliosCardsComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,32 @@
+.testimonial {
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .avatar {
+    width: 64px;
+    height: 64px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .quote-mark {
+    font-size: 24px;
+    color: #ffc107;
+  }
+  
+  .author {
+    font-weight: bold;
+    color: #333;
+  }
