@@ -43,3 +43,10 @@
   font-family: 'Poppins', sans-serif;
   font-size: 64px;
 }
+
+
+@media (max-width: 768px) {
+ .navbar-container {
+   display: none;             /* TODO: */ 
+  }
+}
