@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { BlackLineComponent } from './black-line/black-line.component';
 import { ServicesCardsComponent } from './services-cards/services-cards.component';
+import { PortfoliosCardsComponent } from './portfolios-cards/portfolios-cards.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ServicesCardsComponent } from './services-cards/services-cards.componen
     NavbarComponent,
     IntroductionComponent,
     BlackLineComponent,
-    ServicesCardsComponent
+    ServicesCardsComponent,
+    PortfoliosCardsComponent
   ],
   imports: [
     BrowserModule,
