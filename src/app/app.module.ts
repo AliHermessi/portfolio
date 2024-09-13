@@ -9,6 +9,7 @@ import { BlackLineComponent } from './black-line/black-line.component';
 import { ServicesCardsComponent } from './services-cards/services-cards.component';
 import { PortfoliosCardsComponent } from './portfolios-cards/portfolios-cards.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { PageFooterComponent } from './page-footer/page-footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     BlackLineComponent,
     ServicesCardsComponent,
     PortfoliosCardsComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    PageFooterComponent
   ],
   imports: [
     BrowserModule,

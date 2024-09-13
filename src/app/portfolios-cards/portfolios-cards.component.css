@@ -101,7 +101,7 @@ margin-bottom:35px;
 
     .card {
         padding: 15px;
-        border-width: 3px; /* Slightly thinner border for smaller screens */
+        border-width: 3px; 
     }
 
     .card-icon {
@@ -117,7 +117,7 @@ margin-bottom:35px;
 
     .card-content {
         font-size: 18px;
-        margin-bottom: 10px; /* Adjust space below content */
+        margin-bottom: 10px; 
     }
 
     .title {
